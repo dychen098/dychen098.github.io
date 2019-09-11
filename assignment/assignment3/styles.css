@@ -1,0 +1,76 @@
+
+* { /* means everything*/
+    box-sizing: border-box;
+  }
+  
+  header,section,article,middle,reading {
+    margin:10px auto;
+    width: 70%;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+  }
+  
+  body{
+    background-image: url("images/sleep.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  header {
+    background:rgba(218,112,214,0.7);
+  }
+  
+  section{
+    background:silver;
+  }
+  
+  article{
+    background: lightblue;
+    color:red;
+  }
+
+  article h2{
+    color:black;
+  }
+  
+  reading{
+    background: red;
+    color: green;
+  }
+
+  middle{
+    background: #FFD657;
+    color: white;
+  }
+  
+  
+  nav li{
+    list-style-type:none;
+    float: left;
+  }
+
+  nav a { /*a is for anchor(link)*/
+    background:hotpink;
+    color:#fff;
+    text-decoration:none;
+    list-style-type:none;
+    padding:5px;
+  }
+  
+  nav a:hover{
+    background:silver;
+  }
+  
+  table, th, td {
+    background: cornsilk;
+    border: 1px solid black;
+    color: blueviolet;
+    text-align: left;
+  }
+
+  img { 
+    border:1px solid #021a40;
+  }
+  
+  h3{
+    color:black;
+  }
