@@ -3,7 +3,7 @@
     box-sizing: border-box;
   }
   
-  header,section,article,middle,reading {
+  header,section,article,mid,third{
     margin:10px auto;
     width: 70%;
     padding: 5px 10px 5px 10px;
@@ -32,17 +32,16 @@
     color:black;
   }
   
-  reading{
+  mid{
     background: red;
     color: green;
   }
 
-  middle{
+  third{
     background: #FFD657;
     color: white;
   }
-  
-  
+
   nav li{
     list-style-type:none;
     float: left;
@@ -65,6 +64,7 @@
     border: 1px solid black;
     color: blueviolet;
     text-align: left;
+    padding: 5px 10px 5px 10px;
   }
 
   img { 
