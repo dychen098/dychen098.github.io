@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-header,section, footer, aside, article {
+header,section, footer, aside, article{
     margin:10px auto;
     width: 90%;
     padding: 5px 5px 5px 5px;
@@ -47,6 +47,10 @@ nav a:hover{
     background:silver;
 }
 
+nav {
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+}
 
 
 .twocolumns {
@@ -97,17 +101,19 @@ nav a:hover{
 }
 
 @media (min-width:900px){
-
-   nav li, nav a, .twocolumns, .threecolumns, .images{
+  .twocolumns, .threecolumns, .images{
         display: flex;
     }
 }
 
 
-  @media screen and (orientation: landscape) {
+
+@media screen and (orientation: landscape) {
     nav {
-        width: 100%;
+        flex-direction: column 
+    }
 }
+
 @media screen and (orientation: portrait) {
     nav {
    
@@ -116,4 +122,4 @@ nav a:hover{
       height: 100%;
     }
     }
-  }
+
