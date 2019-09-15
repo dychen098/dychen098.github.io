@@ -47,10 +47,7 @@ nav a:hover{
     background:silver;
 }
 
-nav {
-    padding: 5px 5px 5px 5px;
-    border-radius: 10px;
-}
+
 
 
 .twocolumns {
@@ -96,6 +93,7 @@ nav {
 }
 
 .images {
+    flex:1;
     margin:20px;
     justify-content: space-around;
 }
@@ -117,7 +115,7 @@ nav {
 @media screen and (orientation: portrait) {
     nav {
    
-      position: fixed;
+      /*position: fixed;*/
       width: 2.65em;
       height: 100%;
     }
