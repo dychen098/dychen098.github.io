@@ -17,7 +17,7 @@ header {
 }
 
 section{
-    background:#D9B4AB;
+    background:#F5D0A4;
 }
 
 footer{
@@ -50,12 +50,7 @@ nav a:hover{
 
 
 .twocolumns {
-    background:#D9B4AB;
- 
-    justify-content: space-around;
-}
-.twocolumn{
-    flex-basis: 45%;
+    background:#F5D0A4;
 }
 .col1of2{
     background: pink;
@@ -71,12 +66,10 @@ nav a:hover{
 
 .threecolumns {
     justify-content: space-around;
-    background:#D9B4AB;
+    background:#F5D0A4;
     
 }
-.threecolumn {
-    flex-basis: 45%;
-}
+
 .col1of3{
     background: blue;
     flex:1;
@@ -97,8 +90,9 @@ nav a:hover{
 
 .images {
     flex:1;
-    margin:20px;
-    justify-content: space-around;
+    margin:auto;
+    width:90%;
+    justify-content: space-between;
 }
 
 @media (min-width:600px){
