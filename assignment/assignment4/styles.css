@@ -111,6 +111,9 @@ nav a:hover{
 
 
 @media screen and (orientation: landscape) {
+    .twocolumns, .threecolumns, .images{
+        display: flex;
+    }
     nav {
         flex-direction: column 
     }
