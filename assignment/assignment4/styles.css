@@ -25,7 +25,7 @@ footer{
     background:DarkSalmon;
 }
 aside{
-background:DarkSalmon;
+    background:DarkSalmon;
 }
 article{
     background: white;
@@ -71,8 +71,12 @@ nav a:hover{
 
 
 .threecolumns {
+    justify-content: space-around;
     background:silver;
     
+}
+.threecolumn {
+    flex-basis: 45%;
 }
 .col1of3{
     background: honeydew;
@@ -118,5 +122,5 @@ nav a:hover{
       width: 2.65em;
       height: 20%;
     }
-    }
+}
 
