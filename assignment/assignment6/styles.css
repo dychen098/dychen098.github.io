@@ -1,0 +1,23 @@
+#container {
+  text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    
+    background: 	#696969;
+  
+  }
+  
+  .box {
+    width: 400px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+    background:aqua;
+  }
+  
+  .p{
+    text-align: left;
+  }
