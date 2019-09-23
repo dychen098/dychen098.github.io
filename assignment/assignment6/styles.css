@@ -9,13 +9,17 @@
     background: 	#696969;
   
   }
-  
+  .he{
+    align-items: center;
+  }
+
   .box {
     width: 400px;
     margin: 5px;
-    text-align: center;
+    text-align: left;
     border-radius: 10px;
     background:aqua;
+    padding: 10px;
   }
   
   .p{
