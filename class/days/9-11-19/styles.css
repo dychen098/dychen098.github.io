@@ -21,8 +21,8 @@ footer {
     background: lightpink;
     /* flex-direction: column */
 
-    justify-content: space-around;
-}
+     justify-content: space-around;
+} 
 
 .col1of2 {
     background: lightgreen;
