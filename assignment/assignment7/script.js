@@ -11,7 +11,7 @@ function compareAges(){
     let compare = document.getElementById("age-compare");
 
 
-    if((firstAge > secondAge) && (firstAge > thirdAge) && (secondAge > thirdAge)) {
+    if(((firstAge > secondAge) && (firstAge > thirdAge)) && (secondAge > thirdAge)) {
         compare.innerHTML = `oldest to youngest: ${firstName}, ${secondName}, ${thirdName}`
         console.log("1,2,3");
     } else if ((firstAge > thirdAge) && (firstAge > secondAge) && (secondAge < thirdAge)) {
@@ -40,16 +40,16 @@ function displayHello(){
     const language = document.getElementById("language").value;
     // lang = lang.toLowerCase();
     // lang = lang.trim();
-    if(language == "french"){
+    if(language == "French"){
         hello.innerHTML= "Bonjour le monde";
         console.log("displaying french");
-    } else if (language == "spanish") {
+    } else if (language == "Spanish") {
         hello.innerHTML= "Hola Mundo";
         console.log("displaying spanish");
-    } else if (language == "german") {
+    } else if (language == "German") {
         hello.innerHTML = "Hallo Welt" ;
         console.log("displaying german");
-    } else if (language == "chinese") {
+    } else if (language == "Chinese") {
         hello.innerHTML = "Nǐ hǎo, shìjiè";
         console.log("displaying chinese");
      } else {
