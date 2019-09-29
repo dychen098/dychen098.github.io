@@ -14,21 +14,23 @@ function compareAges(){
     if((firstAge > secondAge) && (firstAge > thirdAge) && (secondAge > thirdAge)) {
         compare.innerHTML = `oldest to youngest: ${firstName}, ${secondName}, ${thirdName}`
         console.log("1,2,3");
-    } else if ((firstAge > thirdAge) && (firstAge > secondAge) && (thirdAge > secondAge)) {
+    } else if ((firstAge > thirdAge) && (firstAge > secondAge) && (secondAge < thirdAge)) {
         compare.innerHTML = `oldest to youngest: ${firstName}, ${thirdName}, ${secondName}`
         console.log("1,3,2");
     } else if ((secondAge > firstAge) &&(secondAge> thirdAge) && (firstAge> thirdAge)) {
         compare.innerHTML = `oldest to youngest: ${secondName}, ${firstName}, ${thirdName}`
         console.log("2,1,3");
-    } else if ((secondAge > thirdAge)&& (secondAge> firstAge) && (firstAge> thirdAge)){
+    } else if ((secondAge > thirdAge)&& (secondAge> firstAge) && (firstAge < thirdAge)) {
         compare.innerHTML = `oldest to youngest: ${secondName}, ${thirdName}, ${firstName}`
         console.log("2,3,1");
-    } else if ((thirdAge > firstAge) && (thirdAge> secondAge) && (firstAge> secondAge)){
+    } else if ((thirdAge > firstAge) && (thirdAge> secondAge) && (firstAge> secondAge)) {
         compare.innerHTML = `oldest to youngest: ${thirdName}, ${firstName}, ${secondName}`
         console.log("3,1,2");
-    } else if ((thirdAge > secondAge) && (thirdAge> firstAge) && (firstAge> secondAge)){
+    } else if ((thirdAge > secondAge) && (thirdAge> firstAge) && (firstAge < secondAge)) {
         compare.innerHTML = `oldest to youngest: ${thirdName}, ${secondName}, ${firstName}`
         console.log("3,2,1");
+    } else {
+        console.log("broken");
     }
 }
 
