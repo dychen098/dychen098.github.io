@@ -1,0 +1,274 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+/* header */
+#main-header{
+    background: #000;
+    color:#fff;
+   
+}
+
+#main-header-top{
+    padding:0 40px;
+}
+
+#main-header a{
+    color:#fff;
+    text-decoration: none;
+    display:flex;
+
+}
+
+#main-header img{
+    margin-right: 10px;
+}
+/* nav */
+#main-nav{
+    background:#73000A;
+    
+}
+
+#main-nav ul{
+    list-style-type: none;
+
+}
+
+#main-nav il {
+    padding:10px;
+    font-size:16px;
+}
+/* main content */
+#main-content{
+    padding:20px;
+}
+
+/*  */
+.col1to4to5{
+    flex-basis: 75%;
+}
+
+
+.col5of5{
+    flex-basis: 15%;
+}
+
+.sc-article img{
+    margin-right: 20px;
+}
+
+.sc-article{
+    margin:10px 0;
+    
+}
+
+/* banner */
+#banner{
+    display: flex;
+    justify-content: center;
+}
+
+/* font styles */
+h2{
+    color:#73000A;
+    font-size: 35px;
+}
+
+/* --------------------------------footer ----------------- */
+footer{
+    background:#73000A;
+    /* padding:10px 30px;  */
+}
+
+#main-footer a{
+    color:#fff;
+    text-decoration: none;
+    display:flex;
+    font-size: 15px;
+    
+
+}
+
+#main-footer img{
+    margin-right: 10px;
+}
+
+#main-footer-header{
+    display: flex;
+}
+
+/* #main-footer-stuff il{
+margin-bottom: 10px;
+} */
+
+#foot-top-left{
+    display: flex;
+    justify-content: left;
+    flex-basis: 50%;
+    padding:10px 30px; 
+}
+
+#foot-top-right{
+    display:flex;
+    justify-content: right;
+    flex-basis: 50%;
+    padding:10px 30px; 
+}
+#space{
+    margin-right: 30px;
+}
+
+#main-footer-stuff{
+    padding:10px 30px; 
+}
+
+.col1of3{
+    flex-basis: 45%;
+    color:#fff;
+    font-size: 12px;
+}
+
+
+.col2of3{
+    flex-basis: 30%;
+    color:#fff;
+    font-size: 12px;
+}
+.col3of3{
+    flex-basis: 15%;
+    color:#fff;
+    font-size: 12px;
+}
+.first-cols{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.second-cols{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.third-cols{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.bottom-grid il{
+    padding:5px;
+    margin:7px;
+}
+.mid-grid il{
+    padding:5px;
+    margin:7px;
+}
+.last-grid il{
+    padding:5px;
+    margin:7px;
+}
+h6{
+    color:white;
+    font-size: 20px;
+    margin-block-start: 55px;
+    margin-block-end: 15px;
+}
+
+/* nav */
+#footer-footer ul{
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+#bottom-nav{
+    display: flex;
+    background:#000;
+    border-top-color: #fff;
+    border-top-width: 1px;
+}
+
+#bottom-nav ul{
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding:10px;
+    font-size:6px;
+
+}
+
+/* --------------hamburger------------------- */
+
+
+#hamburger div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+#hamburger{
+    display:none;
+}
+
+.hidden{
+    /* visibility:hidden; */
+    display: none;
+
+}
+/* --------------------------------- */
+@media(min-width:900px) {
+    #main-nav ul{
+    display:flex;
+    justify-content: space-evenly;
+    }
+
+    #main-content-junior{
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .sc-article{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #main-footer-stuff{
+        display: flex;
+        justify-content: space-between;
+        }
+
+    .first-cols{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .second-cols{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .third-cols{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #bottom-nav ul{
+        display:flex;
+        justify-content: space-evenly;
+        }
+    #footer-footer ul{
+        display:flex;
+        justify-content: space-evenly;
+    }
+}
+
+/* --------------hamburger------------------- */
+@media all and (max-width:500px){
+    #hamburger {
+        display: block;
+    }
+    
+}
+
+#navitems.hidden{
+    display:none;
+}
