@@ -40,7 +40,7 @@ setInterval(function() {            // setInterval makes it run repeatedly
 
 function lotteryNumber() {
     console.log("working")
-    let result = document.getElementById("lottery-result"); //button
+    let result = document.getElementById("number-result"); //button
     var wins = []; //rand num gen array
     
     const number1 = document.getElementById("number1").value; //input box
@@ -57,7 +57,7 @@ function lotteryNumber() {
         wins.push(Math.floor((Math.random() * 10) + 1)); //adds each random number to array
         console.log(wins);
     }
-    result.innerHTML= `${wins}`;
+    result.innerHTML= `${wins}`
 
 
    
@@ -110,7 +110,7 @@ function lotteryNumber() {
     if((selected[0] == wins[0]) && (selected[1] == wins[1]) && (selected[2] == wins[2]) 
     && (selected[3] == wins[3]) && (selected[4] == wins[4])) { 
         const luck = document.getElementById("lottery-result");
-        luck.innerHTML = "congratz you won"
+        luck.innerHTML = "congratz you won";
     } else {
         const luck = document.getElementById("lottery-result");
         luck.innerHTML = "welp you failed"
