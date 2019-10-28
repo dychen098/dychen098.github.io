@@ -5,7 +5,7 @@ class Book {
 
     }
 
-    //setters
+    //getters
     getbookName(){
         return this._bookName
     }
@@ -65,7 +65,6 @@ let contentDiv = document.getElementById("content");
 contentDiv.append(tableElem);
 
 for(book of books){
-   
     tableElem.append(book.getTableRow());
 }
 
