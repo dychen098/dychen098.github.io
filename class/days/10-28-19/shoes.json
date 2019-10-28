@@ -1,0 +1,27 @@
+[
+    {
+        "name":"phily flyer",
+        "brand":"dunno",
+        "price":"239.52",
+        "rating": "1",
+        "comments": ["worst shoe ever", "i hate your shoe", "men!"]
+    },
+
+    {
+        "name":"x-men flyer",
+        "brand":"merrell",
+        "price":"34.52",
+        "rating": "5",
+        "comments": ["Best shoe ever", "i love your shoe", "x-men!"]
+    },
+
+    {
+        "name":"thing",
+        "brand":"haribo",
+        "price":"1.10",
+        "rating": "5",
+        "comments": ["SHOE", "i  shoe", "candy?!"]
+    }
+
+
+]
