@@ -1,0 +1,107 @@
+/*  
+ * {
+  box-sizing: border-box
+}  */
+
+#container {
+  text-align: justify;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 800px;
+  border-radius: 10px; 
+  background: 	#696969;
+  
+} 
+
+/* #container input{
+  align-items: right;
+  width:70%;
+}
+#container label{
+  width:30%;
+} */
+
+label { 
+  display: table-cell; 
+  
+}
+input { 
+  display: table-cell; 
+  width:98%;
+}
+
+.box {
+  width:700px;
+  margin: 20px; 
+  /* text-align: center; */
+  border-radius: 10px;
+   /* background:aqua;  */
+  padding: 20px; 
+ 
+    
+}  
+
+#split{
+  display: flex;
+  flex-basis: 50%;
+  /* justify-content: right; */
+
+}
+
+.bigBox{
+  background: lightblue;
+  flex-basis: 30%;
+  padding: 5px;
+  border-radius: 10px;
+  
+}
+#box1o5{
+  /* background: lightgreen; */
+  padding:5px;
+  flex-basis: 95%;
+  padding: 5px;
+  border-radius: 10px;
+  justify-content: right;
+}
+#pic{
+  background: blue;
+  flex-basis: 20%;
+  padding: 5px;
+  border-radius: 10px;
+  justify-content: left;
+}
+
+
+/* #box3o5{
+  background: lightcyan;
+  flex-basis: 30%;
+  padding: 5px;
+  border-radius: 10px;
+}
+#box4o5{
+  background: lightslategray;
+  flex-basis: 30%;
+  padding: 5px;
+  border-radius: 10px;
+}
+#box5o5{
+  background: lightpink;
+  flex-basis: 30%;
+  padding: 5px;
+  border-radius: 10px;
+} */
+
+
+h2{
+  text-align: center;
+}
+
+/*Does this if the minimum width is at least*/
+@media (min-width:900px) {
+  .threerow {
+      display:flex;
+      justify-content: space-around;
+      /* padding: 5px; */
+  }
+}

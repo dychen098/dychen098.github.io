@@ -5,7 +5,8 @@ var title = [
     ' Ya wanna know how I got these scars? -the joker ', 
     ' YOU CANT LOSE HOPE WHEN ITS HOPELESS. YOU GOTTA HOPE MORE!"  -philip j fry ', 
     ' Just keep swimming, just keep swimming, just keep swimming, swimming, swimming.  -dory ', 
-    ' People Die If They Are Killed - Shirou Emiya '];
+    ' People Die If They Are Killed - Shirou Emiya '
+];
 
 var i = 0;  // the index of the current item to show
 
