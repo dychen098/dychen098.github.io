@@ -1,0 +1,26 @@
+[
+    {
+        "name":"x-men flyer",
+        "brand":"merrell",
+        "price":"34.52",
+        "rating":"5",
+        "comments":["Best shoe ever", "I love your shoe", "X-MEN!"]
+    },
+    {
+        "name":"x-men flyer",
+        "brand":"merrell",
+        "price":"34.52",
+        "rating":"5",
+        "comments":["Best shoe ever", "I love your shoe", "X-MEN!"]
+    },
+
+    {
+        "name":"thing",
+        "brand":"haribo",
+        "price":"1.10",
+        "rating": "5",
+        "comments": ["SHOE", "i  shoe", "candy?!"]
+    }
+
+
+]

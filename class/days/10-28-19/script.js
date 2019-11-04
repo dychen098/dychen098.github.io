@@ -1,7 +1,8 @@
 async function displayShoe(){
 
-    let response = await fetch("https://dychen098.github.io/class/days/10-28-19/shoe.json");
-    let shoeJson = await response.json();
+//    let response = await fetch("https://dychen098.github.io/class/days/10-28-19/shoe.json");
+    let response = await fetch("https://portiaportia.github.io/csce242/json/shoes.json");
+let shoeJson = await response.json();
 
     let shoeName = shoeJson.name;
     let shoeBrand = shoeJson.brand;
