@@ -1,0 +1,20 @@
+ body{
+    background:lightcyan;
+    
+}
+
+.team{
+    display: flex;
+    flex-direction: column;
+    background:lightpink;
+    width:80%;
+    /* margin:auto; */
+    border-style: 5px, solid magenta;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+    border-spacing: 10px 20px;
+    /* justify-content: space-around; */
+} 
+
+
