@@ -1,0 +1,42 @@
+/* body{
+    background: green;
+    color:white;
+}
+
+#songs{
+    width:80%;
+    margin:auto;
+
+}
+
+.song{
+    padding:10px;
+    margin:10px;
+    background:red;
+    border:3px solid white;
+} */
+
+
+body {
+    background:lightgreen;
+}
+
+#teamss {
+    width:80%;
+    margin:auto;
+}
+
+.team {
+    padding:10px;
+    margin:10px;
+    background:lightcoral;
+    border:3px solid white;
+}
+
+.team-form {
+    width:40%;
+    background:skyblue;
+    border:3px solid white;
+    padding:10px;
+    margin:10px auto;
+}
