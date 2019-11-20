@@ -18,7 +18,7 @@
 
 
 body {
-    background:lightgreen;
+    background:lightgray;
 }
 
 #teamss {
@@ -29,13 +29,13 @@ body {
 .team {
     padding:10px;
     margin:10px;
-    background:lightcoral;
+    background:lightskyblue;
     border:3px solid white;
 }
 
 .team-form {
     width:40%;
-    background:skyblue;
+    background:lightyellow;
     border:3px solid white;
     padding:10px;
     margin:10px auto;
