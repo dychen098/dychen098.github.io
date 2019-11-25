@@ -1,0 +1,124 @@
+/* body {
+    font-family:Arial;
+    background:skyblue;
+}
+
+#recipe-forms {
+    display:flex;
+    justify-content: space-between;
+}
+
+.recipe-form {
+    background:lightgray;
+    margin:auto 10px;
+    padding:10px;
+    border-radius:3px;
+    flex-basis:45%;
+}
+
+.recipe-form label {
+    display:block;
+}
+
+.recipe-form input, .recipe-form textarea {
+    width:300px;
+}
+
+.recipe {
+    background:lightgoldenrodyellow;
+    padding:10px;
+    margin:10px;
+    border-radius:3px;
+}
+
+.error {
+    background:lightcoral;
+    color:darkRed;
+}
+
+.success {
+    background:lightgreen;
+    color:darkGreen;
+}
+
+.hidden {
+    display:none;
+}
+
+h1 {
+    text-align:center;
+}
+
+a {
+    color:black;
+}
+
+.recipe-heading {
+    display:flex;
+    justify-content:space-between;
+} */
+
+body {
+    font-family:Arial;
+    background:black;
+}
+
+#recipe-forms {
+    display:flex;
+    justify-content: space-between;
+}
+
+.team-form {
+    background:gold;
+    margin:auto 10px;
+    padding:10px;
+    border-radius:3px;
+    /* flex-basis:45%; */
+    align-content: center;
+}
+
+.recipe-form label {
+    display:block;
+}
+
+.recipe-form input, .recipe-form textarea {
+    width:300px;
+}
+
+.team {
+    background:lightgoldenrodyellow;
+    padding:10px;
+    margin:10px;
+    border-radius:3px;
+    display: flex;
+    align-content: center;
+}
+
+.error {
+    background:lightcoral;
+    color:darkRed;
+}
+
+.success {
+    background:lightgreen;
+    color:darkGreen;
+    
+}
+
+.hidden {
+    display:none;
+}
+
+h1 {
+    text-align:center;
+    color: white;
+}
+
+a {
+    color:black;
+}
+
+.recipe-heading {
+    display:flex;
+    justify-content:space-between;
+}
