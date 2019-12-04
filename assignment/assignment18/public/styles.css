@@ -1,0 +1,109 @@
+
+/* .initiallyHidden { 
+    display: none; 
+} */
+
+
+body {
+    font-family:Arial;
+    /* background:white; */
+    background-image: url("images/puck.jpg");
+    /* display: flex; */
+
+}
+
+
+
+.team-form {
+    color:white;
+    display: flex;
+    background:black;
+    margin: 10px auto;
+    width:50%;
+    padding:10px;
+    border-radius:45%;
+    display: flex;
+
+    /* flex-basis:45%;
+    border-radius: 50%;
+  width: 700px;
+  height: 700px;  */
+
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+}
+
+
+
+.team {
+    background:lightblue;
+    padding:10px;
+    margin:10px;
+    border-radius:100px;
+    /* display: flex;
+    justify-content: center; */
+
+}
+
+.error {
+    background:lightcoral;
+    color:darkRed;
+}
+
+.success {
+    background:lightgreen;
+    color:darkGreen;
+    
+}
+
+.hidden {
+    display:none;
+}
+
+h1 {
+    text-align:center;
+    color: black;
+}
+
+a {
+    color:black;
+}
+
+#btn-edit-team{
+    height:50px;
+    width:50px;
+}
+#btn-add-team{
+    height:50px;
+    width:50px;
+    justify-content: center;
+    align-content: center;
+}
+/* #show-btn{
+    height:50px;
+    width:50px;
+    align-content: center;
+} */
+
+h1 {
+    /* display: flex;
+    background:gold;
+    width: 60%;
+    justify-content: center;
+
+    text-align: center;
+    align-content: center; */
+    width:40%;
+    background:gold;
+    border:3px solid white;
+    padding:10px;
+    margin:10px auto;
+}
+
+
+.initiallyHidden { 
+    display: none; 
+
+}
