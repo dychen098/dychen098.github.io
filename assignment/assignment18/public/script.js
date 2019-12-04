@@ -61,21 +61,18 @@ async function showEditForm(){
     let response = await fetch(`api/teams/${teamId}`);
 
     if(response.status != 200){
-        //showError("Error Displaying team");
         return;
     }
 
     let team = await response.json();
-
-        document.getElementById("txt-edit-team-name").value = team.name;
-        document.getElementById("txt-edit-team-homecity").value= team.homecity;
-        document.getElementById("txt-edit-team-arena").value= team.arena;
-        document.getElementById("txt-edit-team-cups").value= team.cups;
-        document.getElementById("txt-edit-team-division").value= team.division;
-
+        document.getElementById("edit-team-name").value = team.name;
+        document.getElementById("edit-team-homecity").value= team.homecity;
+        document.getElementById("edit-team-arena").value= team.arena;
+        document.getElementById("edit-team-cups").value= team.cups;
+        document.getElementById("edit-team-division").value= team.division;
 
     if(team.players != null){
-        document.getElementById("txt-edit-team-players").value = team.players.join('\n');
+        document.getElementById("dit-team-players").value = team.players.join('\n');
     }
 
 }
@@ -91,7 +88,6 @@ async function deleteTeam(){
         }
     });
     if(response.status != 200){
-        //showError("Error deleting team");
         console.log("Error deleting team");
         return;
     }
@@ -103,7 +99,6 @@ async function deleteTeam(){
 
 
 function getTeamExpand(team){
-    //add the recipe details
     teamExpand = document.createElement("div");
     teamExpand.setAttribute("id", team._id);
     teamExpand.classList.add("hidden");
@@ -156,12 +151,12 @@ function expandTeam()
 
 
 async function addTeam(){
-    const name = document.getElementById("txt-add-team-name").value;
-    const homecity = document.getElementById("txt-add-team-homecity").value;
-    const arena = document.getElementById("txt-add-team-arena").value;
-    const cups = document.getElementById("txt-add-team-cups").value;
-    const division = document.getElementById("txt-add-team-division").value;
-    const playersText = document.getElementById("txt-add-team-players").value;
+    const name = document.getElementById("add-team-name").value;
+    const homecity = document.getElementById("add-team-homecity").value;
+    const arena = document.getElementById("add-team-arena").value;
+    const cups = document.getElementById("add-team-cups").value;
+    const division = document.getElementById("add-team-division").value;
+    const playersText = document.getElementById("add-team-players").value;
     const players = playersText.split("\n");
     const feedbackP = document.getElementById("add-feedback");
     feedbackP.classList.remove("error");
@@ -199,12 +194,12 @@ async function addTeam(){
 
 async function editTeam(){
     const id = document.getElementById("edit-team-id").textContent;
-    const name = document.getElementById("txt-edit-team-name").value;
-    const homecity = document.getElementById("txt-edit-team-homecity").value;
-    const arena = document.getElementById("txt-edit-team-arena").value;
-    const cups = document.getElementById("txt-edit-team-cups").value;
-    const division = document.getElementById("txt-edit-team-division").value;
-    const playersText = document.getElementById("txt-edit-team-players").value;
+    const name = document.getElementById("edit-team-name").value;
+    const homecity = document.getElementById("edit-team-homecity").value;
+    const arena = document.getElementById("edit-team-arena").value;
+    const cups = document.getElementById("edit-team-cups").value;
+    const division = document.getElementById("edit-team-division").value;
+    const playersText = document.getElementById("edit-team-players").value;
     const players = playersText.split("\n");
     const feedbackP = document.getElementById("edit-feedback");
     feedbackP.classList.remove("error");

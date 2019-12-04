@@ -12,7 +12,9 @@ body {
 
 }
 
-
+#team-forms{
+display: none;
+}
 
 .team-form {
     color:white;
@@ -33,6 +35,7 @@ body {
   flex-direction: column;
   text-align: center;
   align-content: center;
+  
 }
 
 
@@ -103,7 +106,7 @@ h1 {
 }
 
 
-.initiallyHidden { 
+/* #initiallyHidden { 
     display: none; 
 
-}
+} */

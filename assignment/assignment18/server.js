@@ -62,7 +62,7 @@ app.post('/api/teams', (req,res)=>{
 });
 
 
-//render our html page
+
 app.get('/',(req,res)=>{
     res.sendFile(__dirname + '/index.html');
 });
