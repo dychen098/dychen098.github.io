@@ -43,11 +43,16 @@ display: none;
 .team {
     background:lightblue;
     padding:10px;
-    margin:10px;
+    margin:auto;
+    width: 50%;
     border-radius:100px;
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    justify-content: center;
 
+}
+
+#editTeam{
+    justify-content: center;
 }
 
 .error {
