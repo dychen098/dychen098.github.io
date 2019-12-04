@@ -82,12 +82,17 @@ a {
 #btn-edit-team{
     height:50px;
     width:50px;
+    display: flex;
+    justify-content: center;
+    margin:auto;
 }
 #btn-add-team{
     height:50px;
     width:50px;
+    display: flex;
     justify-content: center;
-    align-content: center;
+    margin:auto;
+    
 }
 /* #show-btn{
     height:50px;
